@@ -104,6 +104,29 @@ section h3 {
   margin-bottom: 3px;
   background-color: #f8f8f8;
   border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-email {
+  flex-grow: 1;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: background-color 0.2s, color 0.2s;
+  margin-left: 10px;
+}
+
+.delete-icon:hover {
+  background-color: #dc3545;
+  color: white;
 }
 
 .no-participants {
@@ -126,6 +149,7 @@ section h3 {
 .form-group select {
   width: 100%;
   padding: 10px;
+}
 .info {
   background-color: #d1ecf1;
   color: #0c5460;
